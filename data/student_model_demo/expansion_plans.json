@@ -1,0 +1,352 @@
+[
+  {
+    "student_id": "STU001",
+    "core_node_id": "CO033",
+    "as_of": "2026-09-08T10:31:00+00:00",
+    "policy_version": "prerequisites-v1",
+    "nodes": [
+      {
+        "node_id": "CO033",
+        "state_label": "unknown",
+        "action": "explain",
+        "reason": "unknown",
+        "depth": 0,
+        "role": "core"
+      },
+      {
+        "node_id": "CO050",
+        "state_label": "unknown",
+        "action": "explain",
+        "reason": "unknown",
+        "depth": 1,
+        "role": "prerequisite"
+      }
+    ],
+    "edges": [
+      {
+        "dependency_id": "KD0056",
+        "prerequisite_id": "CO050",
+        "target_id": "CO033",
+        "strength": "required"
+      }
+    ],
+    "teaching_order": [
+      "CO050",
+      "CO033"
+    ],
+    "omitted": [
+      {
+        "dependency_id": "KD0247",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0280",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0668",
+        "reason": "recommended_disabled"
+      }
+    ]
+  },
+  {
+    "student_id": "STU002",
+    "core_node_id": "CO033",
+    "as_of": "2026-09-08T10:31:00+00:00",
+    "policy_version": "prerequisites-v1",
+    "nodes": [
+      {
+        "node_id": "CO033",
+        "state_label": "unknown",
+        "action": "explain",
+        "reason": "unknown",
+        "depth": 0,
+        "role": "core"
+      },
+      {
+        "node_id": "CO050",
+        "state_label": "introduced",
+        "action": "explain",
+        "reason": "introduced",
+        "depth": 1,
+        "role": "prerequisite"
+      }
+    ],
+    "edges": [
+      {
+        "dependency_id": "KD0056",
+        "prerequisite_id": "CO050",
+        "target_id": "CO033",
+        "strength": "required"
+      }
+    ],
+    "teaching_order": [
+      "CO050",
+      "CO033"
+    ],
+    "omitted": [
+      {
+        "dependency_id": "KD0247",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0280",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0668",
+        "reason": "recommended_disabled"
+      }
+    ]
+  },
+  {
+    "student_id": "STU003",
+    "core_node_id": "CO033",
+    "as_of": "2026-09-08T10:31:00+00:00",
+    "policy_version": "prerequisites-v1",
+    "nodes": [
+      {
+        "node_id": "CO033",
+        "state_label": "unknown",
+        "action": "explain",
+        "reason": "unknown",
+        "depth": 0,
+        "role": "core"
+      },
+      {
+        "node_id": "CO050",
+        "state_label": "learning",
+        "action": "explain",
+        "reason": "learning",
+        "depth": 1,
+        "role": "prerequisite"
+      }
+    ],
+    "edges": [
+      {
+        "dependency_id": "KD0056",
+        "prerequisite_id": "CO050",
+        "target_id": "CO033",
+        "strength": "required"
+      }
+    ],
+    "teaching_order": [
+      "CO050",
+      "CO033"
+    ],
+    "omitted": [
+      {
+        "dependency_id": "KD0247",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0280",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0668",
+        "reason": "recommended_disabled"
+      }
+    ]
+  },
+  {
+    "student_id": "STU004",
+    "core_node_id": "CO033",
+    "as_of": "2026-09-08T10:31:00+00:00",
+    "policy_version": "prerequisites-v1",
+    "nodes": [
+      {
+        "node_id": "CO033",
+        "state_label": "unknown",
+        "action": "explain",
+        "reason": "unknown",
+        "depth": 0,
+        "role": "core"
+      },
+      {
+        "node_id": "CO050",
+        "state_label": "mastered",
+        "action": "reference",
+        "reason": "reliable_mastery",
+        "depth": 1,
+        "role": "prerequisite"
+      }
+    ],
+    "edges": [
+      {
+        "dependency_id": "KD0056",
+        "prerequisite_id": "CO050",
+        "target_id": "CO033",
+        "strength": "required"
+      }
+    ],
+    "teaching_order": [
+      "CO050",
+      "CO033"
+    ],
+    "omitted": [
+      {
+        "dependency_id": "KD0247",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0280",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0668",
+        "reason": "recommended_disabled"
+      }
+    ]
+  },
+  {
+    "student_id": "STU005",
+    "core_node_id": "CO033",
+    "as_of": "2026-09-08T10:31:00+00:00",
+    "policy_version": "prerequisites-v1",
+    "nodes": [
+      {
+        "node_id": "CO033",
+        "state_label": "unknown",
+        "action": "explain",
+        "reason": "unknown",
+        "depth": 0,
+        "role": "core"
+      },
+      {
+        "node_id": "CO050",
+        "state_label": "unstable",
+        "action": "review",
+        "reason": "mastery_needs_revalidation",
+        "depth": 1,
+        "role": "prerequisite"
+      }
+    ],
+    "edges": [
+      {
+        "dependency_id": "KD0056",
+        "prerequisite_id": "CO050",
+        "target_id": "CO033",
+        "strength": "required"
+      }
+    ],
+    "teaching_order": [
+      "CO050",
+      "CO033"
+    ],
+    "omitted": [
+      {
+        "dependency_id": "KD0247",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0280",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0668",
+        "reason": "recommended_disabled"
+      }
+    ]
+  },
+  {
+    "student_id": "STU006",
+    "core_node_id": "CO033",
+    "as_of": "2026-09-08T10:31:00+00:00",
+    "policy_version": "prerequisites-v1",
+    "nodes": [
+      {
+        "node_id": "CO033",
+        "state_label": "unknown",
+        "action": "explain",
+        "reason": "unknown",
+        "depth": 0,
+        "role": "core"
+      },
+      {
+        "node_id": "CO050",
+        "state_label": "forgotten",
+        "action": "review",
+        "reason": "mastery_needs_revalidation",
+        "depth": 1,
+        "role": "prerequisite"
+      }
+    ],
+    "edges": [
+      {
+        "dependency_id": "KD0056",
+        "prerequisite_id": "CO050",
+        "target_id": "CO033",
+        "strength": "required"
+      }
+    ],
+    "teaching_order": [
+      "CO050",
+      "CO033"
+    ],
+    "omitted": [
+      {
+        "dependency_id": "KD0247",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0280",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0668",
+        "reason": "recommended_disabled"
+      }
+    ]
+  },
+  {
+    "student_id": "STU007",
+    "core_node_id": "CO033",
+    "as_of": "2026-09-08T10:31:00+00:00",
+    "policy_version": "prerequisites-v1",
+    "nodes": [
+      {
+        "node_id": "CO033",
+        "state_label": "unknown",
+        "action": "explain",
+        "reason": "unknown",
+        "depth": 0,
+        "role": "core"
+      },
+      {
+        "node_id": "CO050",
+        "state_label": "misconceived",
+        "action": "remediate",
+        "reason": "identified_misconception",
+        "depth": 1,
+        "role": "prerequisite"
+      }
+    ],
+    "edges": [
+      {
+        "dependency_id": "KD0056",
+        "prerequisite_id": "CO050",
+        "target_id": "CO033",
+        "strength": "required"
+      }
+    ],
+    "teaching_order": [
+      "CO050",
+      "CO033"
+    ],
+    "omitted": [
+      {
+        "dependency_id": "KD0247",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0280",
+        "reason": "recommended_disabled"
+      },
+      {
+        "dependency_id": "KD0668",
+        "reason": "recommended_disabled"
+      }
+    ]
+  }
+]

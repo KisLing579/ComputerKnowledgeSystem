@@ -1,0 +1,53 @@
+[data]
+workbook = "data/computer_core_kg_ch1_ch9_master_v0_6_dependencies.xlsx"
+nodes_sheet = "KG_Nodes"
+relations_sheet = "KG_Relations"
+dependencies_sheet = "Knowledge_Dependencies"
+
+[neo4j]
+uri = "bolt://localhost:7687"
+user = "neo4j"
+database = "neo4j"
+# Do not put the password here. Set environment variable NEO4J_PASSWORD.
+
+[import]
+batch_size = 500
+active_only = true
+
+[query]
+top_k_nodes = 12
+seed_nodes = 8
+max_hops = 4
+paths_per_pair = 30
+candidate_path_limit = 150
+
+[explanation]
+max_goal_depth = 3
+max_plan_depth = 5
+max_children = 8
+max_segments = 40
+relation_neighbor_limit = 20
+definition_support_limit = 5
+comparison_support_limit = 4
+
+[visual]
+max_nodes_per_scene = 8
+default_scene_seconds = 3.0
+transition_seconds = 0.6
+
+[manim]
+quality = "l"
+media_dir = "media"
+generated_script = "generated_explanation.py"
+
+
+[representation]
+prefer_semantic_patterns = true
+
+[resource_planning]
+max_nodes_per_scene = 8
+show_narration = true
+
+[rendering]
+safe_width = 11.4
+safe_height = 5.25
