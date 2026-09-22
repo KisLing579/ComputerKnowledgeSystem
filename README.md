@@ -245,5 +245,5 @@ Run the test suite with:
 ```
 
 Tests do not replace checking a generated video or validating live Neo4j, model and speech connections.
-#   C o m p u t e r K n o w l e d g e S y s t e m  
- 
+ 
+ 
